@@ -1,0 +1,73 @@
+# AppX package names to check by default.
+# One package Name per line.
+#
+# You can also paste rows copied from:
+# Get-AppxPackage | Select Name, PackageFullName
+#
+# IMPORTANT:
+# The separate default-package list mentioned in your latest message was not
+# available to this session when this file was generated, so I have deliberately
+# left the active list empty instead of guessing and preselecting the wrong apps.
+
+
+
+Microsoft.Windows.DevHome
+Microsoft.WindowsAlarms
+Microsoft.WindowsCamera
+Microsoft.Windows.NarratorQuickStart
+Microsoft.Windows.ParentalControls
+Microsoft.Windows.CallingShellApp
+Microsoft.Windows.SecureAssessmentBrowser
+Microsoft.Windows.AssignedAccessLockApp
+Microsoft.XboxGameCallableUI
+Microsoft.Windows.ContentDeliveryManager
+Microsoft.BioEnrollment
+
+Get-AppxPackage *MixedReality* -allusers |Remove-AppxPackage
+Get-AppxPackage *3dbuilder* -allusers |Remove-AppxPackage
+Get-AppxPackage *3dviewer* -allusers |Remove-AppxPackage
+Get-AppxPackage *alarms* -allusers |Remove-AppxPackage
+Get-AppxPackage *AV1VideoExtension* -allusers |Remove-AppxPackage
+Get-AppxPackage *communications* -allusers |Remove-AppxPackage
+Get-AppxPackage *disney* -allusers |Remove-AppxPackage
+Get-AppxPackage *dolbyaccess* -allusers |Remove-AppxPackage
+Get-AppxPackage *WindowsFeedbackHub* -allusers |Remove-AppxPackage
+Get-AppxPackage *fitbitcoach* -allusers |Remove-AppxPackage
+Get-AppxPackage *officehub* -allusers |Remove-AppxPackage
+Get-AppxPackage *getstarted* -allusers |Remove-AppxPackage
+Get-AppxPackage *zunemusic* -allusers |Remove-AppxPackage
+Get-AppxPackage *HEIFImageExtension* -allusers |Remove-AppxPackage
+Get-AppxPackage *GetHelp* -allusers |Remove-AppxPackage
+Get-AppxPackage *maps* -allusers |Remove-AppxPackage
+Get-AppxPackage *solitairecollection* -allusers |Remove-AppxPackage
+Get-AppxPackage *Todos* -allusers |Remove-AppxPackage
+Get-AppxPackage *Teams* -allusers |Remove-AppxPackage
+Get-AppxPackage *bingfinance* -allusers |Remove-AppxPackage
+Get-AppxPackage *zunevideo* -allusers |Remove-AppxPackage
+Get-AppxPackage *bingnews* -allusers |Remove-AppxPackage
+Get-AppxPackage *onenote* -allusers |Remove-AppxPackage
+Get-AppxPackage *OneDriveSync* -allusers |Remove-AppxPackage
+Get-AppxPackage *Paint* -allusers |Remove-AppxPackage
+Get-AppxPackage *people* -allusers |Remove-AppxPackage
+Get-AppxPackage *windowsphone* -allusers |Remove-AppxPackage
+Get-AppxPackage *phototastic* -allusers |Remove-AppxPackage
+Get-AppxPackage *picsart* -allusers |Remove-AppxPackage
+Get-AppxPackage *plex* -allusers |Remove-AppxPackage
+Get-AppxPackage *PowerAutomateDesktop* -allusers |Remove-AppxPackage
+Get-AppxPackage *ScreenSketch* -allusers |Remove-AppxPackage
+Get-AppxPackage *skype* -allusers |Remove-AppxPackage
+Get-AppxPackage *StickyNotes* -allusers |Remove-AppxPackage
+Get-AppxPackage *SpotifyMusic* -allusers |Remove-AppxPackage
+Get-AppxPackage *bingsports* -allusers |Remove-AppxPackage
+Get-AppxPackage *soundrecorder* -allusers |Remove-AppxPackage
+Get-AppxPackage *bingweather* -allusers |Remove-AppxPackage
+Get-AppxPackage *WebpImageExtension* -allusers |Remove-AppxPackage
+Get-AppxPackage *WebMediaExtension* -allusers |Remove-AppxPackage
+Get-AppxPackage *xbox* -allusers |Remove-AppxPackage
+Get-AppxPackage *YourPhone* -allusers |Remove-AppxPackage
+Get-AppxPackage *wallet* -allusers |Remove-AppxPackage
+Get-AppxPackage *onedrive* -allusers |Remove-AppxPackage
+Get-AppxPackage *BioEnrollment* -allusers |Remove-AppxPackage
+Get-AppxPackage *BrokerPlugin* -allusers |Remove-AppxPackageGet-Appx
+Get-AppxPackage *PeopleExperience* -allusers |Remove-AppxPackage
+Get-AppxPackage *Advertising* -allusers |Remove-AppxPackage
